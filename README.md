@@ -3,8 +3,8 @@
 ---
 
 ## Alright so here's the idea:
-- *Problem:* annoying looking up Stardew items||characters
-- *Solution:* pin a menu to your screen to easily toggle
+- *Problem:* its annoying looking up gifts and items in Stardew
+- *Solution:* pin a menu to your screen to easily find
 
 ### Issues:
 - no idea how to pin a window to your screen
@@ -12,7 +12,7 @@
 
 ### Final Solutions:
 - make this a studying opportunity
-- learn how to pin thangs to the screen
+- learn how to pin thangs to the screen *if time allows*
     
 
 ---
@@ -39,7 +39,7 @@ _Demo:_
 
 `Plant, Person, or Lookup?`
 
-*Plant*
+***Plant***
 
 Select: *Spring // Summer // Fall // Winter*
 
@@ -51,7 +51,7 @@ Select: *Plant List*
         $   Sale Prices
         #   ROI
 
-*Person*
+***Person***
 
 Select: *Gift // Locate*
 
@@ -62,7 +62,7 @@ Gift:
         ""  Likes
 
 
-*Locate*
+Locate:
 
 Select: *Day & Rain*
 
@@ -71,13 +71,41 @@ Select: *Day & Rain*
         ""  Location
 
 
-*Lookup*
+***Lookup***
 
-Input: *name*
-
-
+Input: *name of item or person*
 
     Item/Person Name:
-        Same as above
+        [Display as above]
+
+
+
+---
+
+## Program Organization:
+
+
+    item.cpp    
+        Abstract class to contain all items
+        - char*         name
+        - char*         getName()
+        - char*         display()
+            
+    crop.cpp : item.cpp
+        Class to contain all crops
+        - double        seedCost, ROI
+        - int           yield
+        - vector        salePrices
+
+    gift.cpp : item.cpp
+        Class to contain all giftable items
+        - char*         name
+        - bool          loved, liked
+
+    character.cpp
+        Class to contain all characters
+        - char*         name
+        - vector        loves, likes
+    
 
 
