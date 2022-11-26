@@ -23,12 +23,13 @@ _Initializing Characters:_
    1. [X] Pointers
    2. [ ] Dynamic Allocation
    3. [ ] Filestreams
-   4. [ ] Vectors
+   4. [X] Vectors
 
 _Initializing Farming Items:_
-   1. [ ] Objects, Classes, Structs
-   2. [ ] Inheritance, Polymorphism
-   3. [X] Constructors, Destructors, Operator Overloading
+   1. [X] Objects, Classes, Structs
+   2. [X] Inheritance, Polymorphism
+   3. [X] Constructors, Destructors
+   4. [ ] Operator Overloading
 
 _Demo:_
    1. [ ] Deques, LinkedLists
