@@ -20,7 +20,7 @@
 ## Concepts to Practice:
 
 _Initializing Characters:_
-   1. [ ] Pointers
+   1. [X] Pointers
    2. [ ] Dynamic Allocation
    3. [ ] Filestreams
    4. [ ] Vectors
@@ -28,7 +28,7 @@ _Initializing Characters:_
 _Initializing Farming Items:_
    1. [ ] Objects, Classes, Structs
    2. [ ] Inheritance, Polymorphism
-   3. [ ] Constructors, Destructors, Operator Overloading
+   3. [X] Constructors, Destructors, Operator Overloading
 
 _Demo:_
    1. [ ] Deques, LinkedLists
@@ -106,6 +106,9 @@ Input: *name of item or person*
         Class to contain all characters
         - char*         name
         - vector        loves, likes
+
+    main.cpp
+        Demo class
     
 
 
