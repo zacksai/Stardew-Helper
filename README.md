@@ -26,12 +26,12 @@ _Initializing Characters:_
    4. [ ] Vectors
 
 _Initializing Farming Items:_
-   5. [ ] Objects, Classes, Structs
-   6. [ ] Inheritance, Polymorphism
-   7. [ ] Constructors, Destructors, Operator Overloading
+   1. [ ] Objects, Classes, Structs
+   2. [ ] Inheritance, Polymorphism
+   3. [ ] Constructors, Destructors, Operator Overloading
 
 _Demo:_
-   8. [ ] Deques, LinkedLists
+   1. [ ] Deques, LinkedLists
 
 ---
 
